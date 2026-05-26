@@ -37,15 +37,14 @@ Jika Anda ingin mencoba menjalankan aplikasi ini di komputer/laptop sendiri, iku
    cd robot-pintar-sd
 Install Library yang Dibutuhkan:
 Pastikan Anda sudah menginstal Python, lalu jalankan perintah:
-
-'''Bash
- pip install -r requirements.txt
-
+ ```Bash
+pip install -r requirements.txt
+```
 Jalankan Aplikasi:
 
-'''Bash
- streamlit run app.py
-
+```Bash
+ streamlit run app.py 
+```
 📂 Struktur File
 app.py : Kode utama aplikasi Streamlit (Frontend & Logika Chat).
 
