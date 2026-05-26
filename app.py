@@ -9,7 +9,7 @@ st.caption("Powered by NVIDIA AI & Cloudflare Workers")
 st.write("Halo Teman Kecil! 👋 Aku Robot Pintar. Kamu mau tanya apa hari ini? 🚀🌈")
 
 # 2. Masukkan URL Cloudflare Worker Anda yang sudah sukses CORS & API Key kemarin
-WORKER_URL = "https://old-snow-7085.muhammadridhoashari01.workers.dev/v1/chat/completions"
+WORKER_URL = "https://calm-fire-e809.muhammadridhoashari01.workers.dev"
 
 # 3. Inisialisasi Memori Chat (Agar riwayat obrolan tidak hilang saat halaman di-refresh)
 if "messages" not in st.session_state:
