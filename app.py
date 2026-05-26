@@ -37,12 +37,15 @@ if user_input := st.chat_input("Tanya Robot di sini..."):
         
         # Susun data JSON yang akan dikirim ke Cloudflare Worker
         payload = {
-            "model": "meta/llama-3.1-405b-instruct", # Sesuaikan dengan model Nvidia pilihan Anda
-            "messages": st.session_state.messages,
-            "temperature": 0.5,
-            "max_tokens": 1024,
-            "stream": False
-        }
+    "model": "meta-llama/llama-3-8b-instruct:free",
+    "messages": st.session_state.messages,
+    "temperature": 0.5,
+    "max_tokens": 512,
+    "extra_headers": {
+        "HTTP-Referer": "https://streamlit.io", # Wajib ada untuk OpenRouter Free
+        "X-Title": "Robot Pintar SD"
+    }
+}
         
         headers = {
             "Content-Type": "application/json"
