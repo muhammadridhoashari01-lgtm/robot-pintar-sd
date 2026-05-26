@@ -41,7 +41,7 @@ if user_input := st.chat_input("Tanya Robot di sini..."):
         
         # Susun payload JSON khusus untuk Model Gratis OpenRouter pilihan Anda
         payload = {
-            "model": "nvidia/nemotron-3-super:free",
+            "model": "openai/gpt-oss-120b:free",
             "messages": st.session_state.messages,
             "temperature": 0.5,
             "max_tokens": 512
