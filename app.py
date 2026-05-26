@@ -12,7 +12,7 @@ st.write("Halo Teman Kecil! 👋 Aku Robot Pintar. Kamu mau tanya apa hari ini? 
 # 2. ALAMAT WORKER BARU ANDA
 # Ganti URL di dalam tanda kutip di bawah ini dengan alamat URL Cloudflare Worker baru Anda
 # =========================================================================
-WORKER_URL = "https://old-snow-7085.muhammadridhoashari01.workers.dev/v1/chat/completions"
+WORKER_URL = "ttps://calm-fire-e809.muhammadridhoashari01.workers.dev/v1/chat/completions."
 # =========================================================================
 
 # 3. Inisialisasi Memori Chat agar Riwayat Tidak Hilang
