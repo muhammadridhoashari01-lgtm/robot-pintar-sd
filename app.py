@@ -9,7 +9,7 @@ st.caption("Powered by NVIDIA AI & Cloudflare Workers")
 st.write("Halo Teman Kecil! 👋 Aku Robot Pintar. Kamu mau tanya apa hari ini? 🚀🌈")
 
 # 2. Masukkan URL Cloudflare Worker Anda yang sudah sukses CORS & API Key kemarin
-WORKER_URL = "https://calm-fire-e809.muhammadridhoashari01.workers.dev"
+BASE_URL = "https://calm-fire-e809.muhammadridhoashari01.workers.dev"
 
 # 3. Inisialisasi Memori Chat (Agar riwayat obrolan tidak hilang saat halaman di-refresh)
 if "messages" not in st.session_state:
@@ -37,7 +37,7 @@ if user_input := st.chat_input("Tanya Robot di sini..."):
         
         # Susun data JSON yang akan dikirim ke Cloudflare Worker
         payload = {
-    "model": "meta-llama/llama-3-8b-instruct:free",
+    "model": "nvidia/nemotron-3-super:free",
     "messages": st.session_state.messages,
     "temperature": 0.5,
     "max_tokens": 512,
