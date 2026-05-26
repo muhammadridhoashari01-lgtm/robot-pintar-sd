@@ -35,3 +35,20 @@ Jika Anda ingin mencoba menjalankan aplikasi ini di komputer/laptop sendiri, iku
    ```bash
    git clone [https://github.com/USERNAME-ANDA/robot-pintar-sd.git](https://github.com/USERNAME-ANDA/robot-pintar-sd.git)
    cd robot-pintar-sd
+Install Library yang Dibutuhkan:
+Pastikan Anda sudah menginstal Python, lalu jalankan perintah:
+
+Bash
+pip install -r requirements.txt
+Jalankan Aplikasi:
+
+Bash
+streamlit run app.py
+📂 Struktur File
+app.py : Kode utama aplikasi Streamlit (Frontend & Logika Chat).
+
+requirements.txt : Daftar library Python pendukung yang wajib diinstal oleh server (streamlit & requests).
+
+README.md : Dokumentasi lengkap mengenai proyek aplikasi.
+
+📋 Proyek ini dikembangkan sebagai inovasi media pembelajaran digital guna meningkatkan motivasi belajar dan menanamkan karakter positif pada siswa Sekolah Dasar.
