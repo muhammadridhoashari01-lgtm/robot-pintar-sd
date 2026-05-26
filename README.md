@@ -46,10 +46,13 @@ Jalankan Aplikasi:
  streamlit run app.py 
 ```
 📂 Struktur File
-app.py : Kode utama aplikasi Streamlit (Frontend & Logika Chat).
+robot-pintar-sd/
+│
+├── app.py              # Kode utama aplikasi Streamlit (Frontend & Logika Chat)
+├── requirements.txt    # Daftar library Python pendukung (streamlit & requests)
+└── README.md           # Dokumentasi lengkap mengenai proyek aplikasi
 
-requirements.txt : Daftar library Python pendukung yang wajib diinstal oleh server (streamlit & requests).
-
-README.md : Dokumentasi lengkap mengenai proyek aplikasi.
+### pengingat:
+Jangan lupa ganti tulisan `USERNAME-ANDA` di bagian langkah lokal dengan username GitHub asli agar link-nya pas. jika anda mau pakai user nama anda silahkan copy proyek ini. free lisensi untuk uji coba bukan digunakan komersial. Ada batasa penggunaan harian sekitar sekitar 10000 kata gunakan dengan bijak. 
 
 📋 Proyek ini dikembangkan sebagai inovasi media pembelajaran digital guna meningkatkan motivasi belajar dan menanamkan karakter positif pada siswa Sekolah Dasar.
