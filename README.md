@@ -54,6 +54,6 @@ robot-pintar-sd/
 └── README.md           # Dokumentasi lengkap mengenai proyek aplikasi
 ```
 ### pengingat:
-Jangan lupa ganti tulisan `USERNAME-ANDA` di bagian langkah lokal dengan username GitHub asli agar link-nya pas. jika anda mau pakai user nama anda silahkan copy proyek ini. free lisensi untuk uji coba bukan digunakan komersial. Ada batasa penggunaan harian sekitar sekitar 10000 kata gunakan dengan bijak. 
+Jangan lupa ganti tulisan `USERNAME-ANDA` di bagian langkah lokal dengan username GitHub asli agar link-nya pas. jika anda mau pakai user nama anda silahkan copy proyek ini. free lisensi untuk uji coba bukan digunakan komersial. Ada batasan penggunaan harian sekitar sekitar 10000 kata gunakan dengan bijak. 
 
 📋 Proyek ini dikembangkan sebagai inovasi media pembelajaran digital guna meningkatkan motivasi belajar dan menanamkan karakter positif pada siswa Sekolah Dasar.
