@@ -1,4 +1,4 @@
-import streamlit as str
+import streamlit as st
 import requests
 
 # 1. Atur Judul dan Konfigurasi Halaman Web
