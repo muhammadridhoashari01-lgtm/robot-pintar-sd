@@ -58,7 +58,7 @@ Jangan lupa ganti tulisan `USERNAME-ANDA` di bagian langkah lokal dengan usernam
 ### Pemberitahuan:
 ```
 // Kepada penerus masa depan:
-// Saat ini dibrobot pintar ini dibuat, hanya Tuhan dan saya yang mengerti logikanya.
+// Saat robot pintar ini dibuat, hanya Tuhan dan saya yang mengerti logikanya.
 // Sekarang, hanya Tuhan yang tahu.
 // Jika Anda berniat merombak robot pintar ini dan akhirnya eror
 // tolong tambahkan pemberitahuan ini sebagai peringatan
